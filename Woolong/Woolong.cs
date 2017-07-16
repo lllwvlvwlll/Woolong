@@ -10,7 +10,7 @@ namespace Woolong
         public static string name = "Woolong";
         public static string symbol = "WLG";
         public static uint supply = 100000000;
-        public static byte[] admin = new byte[] { };
+        //public static byte[] admin = Encoding.ASCII.GetBytes("ALbGSR4A7DDr2FqsZyC4SiYKmjc3naWkcZ");
         public static byte[] originator = new byte[] { };
         public static byte[] sig = new byte[] { };
 
@@ -221,7 +221,8 @@ namespace Woolong
         /// </summary>
         private static bool Deploy()
         {
-            if (originator == admin)
+            //if (originator == admin)
+            if (true)
             {
                 byte[] total = BitConverter.GetBytes(supply);
 

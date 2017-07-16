@@ -6,6 +6,5 @@ Z:\Projects\Tokens\Woolong\Woolong\Woolong\obj\Debug\Woolong.pdb
 Z:\Projects\Tokens\Woolong\Woolong\bin\Debug\Woolong.dll
 Z:\Projects\Tokens\Woolong\Woolong\bin\Debug\Woolong.pdb
 Z:\Projects\Tokens\Woolong\Woolong\bin\Debug\AntShares.SmartContract.Framework.dll
-Z:\Projects\Tokens\Woolong\Woolong\obj\Debug\Woolong.csprojResolveAssemblyReference.cache
 Z:\Projects\Tokens\Woolong\Woolong\obj\Debug\Woolong.dll
 Z:\Projects\Tokens\Woolong\Woolong\obj\Debug\Woolong.pdb
