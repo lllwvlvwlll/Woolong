@@ -63,6 +63,30 @@ namespace Woolong
             return supply;
         }
 
+        /// <summary>
+        ///   Returns the token name
+        /// </summary>
+        private static string Name()
+        {
+            return name;
+        }
+
+        /// <summary>
+        ///   Returns the token symbol
+        /// </summary>
+        private static string Symbol()
+        {
+            return symbol;
+        }
+
+        /// <summary>
+        ///   Returns the token decimals
+        /// </summary>
+        private static string Decimals()
+        {
+            return decimals;
+        }
+
 
         ///  <summary>
         ///    Identifies the balance of a user 
@@ -79,6 +103,45 @@ namespace Woolong
                 Array.Reverse(balance);
 
             return BitConverter.ToUInt32(balance, 0);
+        }
+
+        ///  <summary>
+        ///    Overload method for the ERC223 standard
+        ///    Args:
+        ///      to: The address to transfer tokens to.
+        ///      transValue: The amount of tokens to transfer.
+        ///      data: a fallback dataset
+        ///    Returns: 
+        ///      bool: Transaction Successful?.   
+        ///  </summary>
+        private static bool Transfer(byte[] to, uint transValue, byte[] data)
+        {
+            uint originatorValue = BalanceOf(originator);
+            uint toValue = BalanceOf(to);
+
+            if ((originatorValue >= transValue) &&
+                (transValue > 0))
+            {
+
+                byte[] toByteVal = BitConverter.GetBytes(toValue + transValue);
+                byte[] fromByteVal = BitConverter.GetBytes(originatorValue - transValue);
+
+                if (BitConverter.IsLittleEndian)
+                {
+                    Array.Reverse(toByteVal);
+                    Array.Reverse(fromByteVal);
+                }
+
+                Storage.Put(Storage.CurrentContext, originator, fromByteVal);
+                Storage.Put(Storage.CurrentContext, to, toByteVal);
+
+                //check and invoke tokenFallback in to if its a contract
+
+                return true;
+
+            };
+
+            return false;
         }
 
 
@@ -110,6 +173,8 @@ namespace Woolong
 
                 Storage.Put(Storage.CurrentContext, originator, fromByteVal);
                 Storage.Put(Storage.CurrentContext, to, toByteVal);
+
+                //check and invoke tokenFallback in to if its a contract
 
                 return true;
 
@@ -215,6 +280,14 @@ namespace Woolong
             return BitConverter.ToUInt32(balance, 0);
         }
 
+
+        /// <summary>
+        ///   Token Fallback Function
+        /// </summary>
+        private static void TokenFallback(byte[] from, uint value, byte[] data)
+        {
+
+        }
 
         /// <summary>
         ///   Deploys the contract tokens. 
