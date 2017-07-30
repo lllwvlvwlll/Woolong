@@ -1,139 +1,139 @@
 ﻿using AntShares.SmartContract.Framework;
 using AntShares.SmartContract.Framework.Services.AntShares;
 using System;
-using System.Numerics;
 
 namespace Woolong
 {
     public class Woolong : FunctionCode
     {
-        public static string name = "Woolong";
-        public static string symbol = "WLG";
-        public static uint supply = 100000000;
-        public static byte[] admin = new byte[] { };
-        public static byte[] originator = new byte[] { };
-        public static byte[] sig = new byte[] { };
 
-        public static object Main(string operation, params object[] args)
+        public static byte[] Main(byte[] originator, byte[] signature, byte[] byteEvent, byte[] targetPubKeyA, byte[] targetPubKeyB, int amount)
         {
-            originator = (byte[])args[0];
-            sig = (byte[])args[1];
-
-            if (!VerifySignature(originator, sig))
+            //Verify that the user is who they say they are
+            if (!VerifySignature(originator, signature))
             {
-                return false;
+                Runtime.Log("The input public key and signature did not match.  Please try again.");
+                return new byte[] { 0 };
             }
-
-            switch (operation)
+  
+            var Event = System.Text.Encoding.UTF8.GetString(byteEvent);
+            switch (Event)
             {
+                case "Deploy":
+                    Runtime.Log("Attempting to deploy the smart contract tokens");
+                    return Deploy(originator);
+
                 case "TotalSupply":
-                    return TotalSupply();
+                    Runtime.Log("Successfully invoked TotalSupply");
+                    return BitConverter.GetBytes(10000);
 
                 case "BalanceOf":
-                    return BalanceOf((byte[])args[2]);
+                    Runtime.Log("Successfully invoked BalanceOf");
+                    return Storage.Get(Storage.CurrentContext, targetPubKeyA);
 
                 case "Transfer":
-                    return Transfer((byte[])args[2], (uint)args[3]);
+                    return Transfer(originator, targetPubKeyA, amount);
 
                 case "TransferFrom":
-                    return TransferFrom((byte[])args[2], (byte[])args[3], (uint)args[4]);
+                    return TransferFrom(originator, targetPubKeyA, targetPubKeyB, amount);
 
                 case "Approve":
-                    return Approve((byte[])args[2], (uint)args[3]);
+                    return Approve(originator, targetPubKeyA, amount);
 
                 case "Allowance":
-                    return Allowance((byte[])args[2], (byte[])args[3]);
-
-                case "Deploy":
-                    return Deploy();
+                    Runtime.Log("Successfully invoked Allowance");
+                    return Storage.Get(Storage.CurrentContext, targetPubKeyA.Concat(targetPubKeyB));
 
                 default:
-                    return false;
+                    Runtime.Log("Invalid Event Input");
+                    return new byte[] { 0 };
+            }
+        }
+
+
+        /// <summary>
+        ///   Deploys the contract tokens. 
+        /// </summary>
+        private static byte[] Deploy(byte[] originator)
+        {
+            //Define the admin public key in byte format (the same format as the one
+            //input to invote the Smart Contract.
+            var adminKey = new byte[] { 3, 84, 174, 73, 130, 33, 4, 108, 102,
+                                        110, 254, 187, 174, 233, 189, 14, 180,
+                                        130, 52, 105, 201, 142, 116, 132, 148,
+                                        169, 42, 113, 243, 70, 177, 166, 97 };
+
+            if (originator != adminKey)
+            {
+                Runtime.Log("Please use an admin account to access this Event");
+                return new byte[] { 0 };
             }
 
-        }
-
-        ///  <summary>
-        ///  Calculates the total circulating supply of tokens.
-        ///  Returns:
-        ///    uint: the total supply of tokens in circulation.
-        ///  </summary>
-        private static uint TotalSupply()
-        {
-            return supply;
-        }
-
-
-        ///  <summary>
-        ///    Identifies the balance of a user 
-        ///    Args:
-        ///      owner: The account address to look up.
-        ///    Returns:
-        ///      uint: The account holdings of the input address.
-        ///  </summary>        
-        private static uint BalanceOf(byte[] owner)
-        {
-            byte[] balance = Storage.Get(Storage.CurrentContext, owner);
-
-            if (BitConverter.IsLittleEndian)
-                Array.Reverse(balance);
-
-            return BitConverter.ToUInt32(balance, 0);
+            //deploy the tokens to the admin
+            var supply = BitConverter.GetBytes(10000);
+            Storage.Put(Storage.CurrentContext, originator, supply);
+            Runtime.Log("Tokens deployed to your account");
+            return new byte[] { 1 };
         }
 
 
         ///  <summary>
         ///    Transfers a balance to an address
         ///    Args:
+        ///      originator: The address to transfer tokens from.
         ///      to: The address to transfer tokens to.
-        ///      transValue: The amount of tokens to transfer.
+        ///      amount: The amount of tokens to transfer.
         ///    Returns: 
-        ///      bool: Transaction Successful?.   
+        ///      byte[]: Transaction Successful?.   
         ///  </summary>
-        private static bool Transfer(byte[] to, uint transValue)
+        private static byte[] Transfer(byte[] originator, byte[] to, int amount)
         {
-            uint originatorValue = BalanceOf(originator);
-            uint toValue = BalanceOf(to);
+            var originatorValue = Storage.Get(Storage.CurrentContext, originator);
+            var targetValue = Storage.Get(Storage.CurrentContext, to);
 
-            if ((originatorValue >= transValue) &&
-                (transValue > 0))
+            var nOriginatorValue = BitConverter.ToInt32(originatorValue, 0) - amount;
+            var nTargetValue = BitConverter.ToInt32(targetValue, 0) + amount;
+            if (((nOriginatorValue) >= 0) &&
+                (amount > 0))
             {
 
-                byte[] toByteVal = BitConverter.GetBytes(toValue + transValue);
-                byte[] fromByteVal = BitConverter.GetBytes(originatorValue - transValue);
-
+                var targetByteVal = BitConverter.GetBytes(nTargetValue);
+                var byteVal = BitConverter.GetBytes(nOriginatorValue);
                 if (BitConverter.IsLittleEndian)
                 {
-                    Array.Reverse(toByteVal);
-                    Array.Reverse(fromByteVal);
+                    Array.Reverse(targetByteVal);
+                    Array.Reverse(byteVal);
                 }
 
-                Storage.Put(Storage.CurrentContext, originator, fromByteVal);
-                Storage.Put(Storage.CurrentContext, to, toByteVal);
+                Storage.Put(Storage.CurrentContext, originator, byteVal);
+                Storage.Put(Storage.CurrentContext, to, targetByteVal);
 
-                return true;
+                Runtime.Log("Tokens successfully transferred");
+                return new byte[] { 1 };
 
             };
 
-            return false;
+            Runtime.Log("Tokens failed to transfer");
+            return new byte[] { 0 };
         }
 
 
         ///  <summary>
         ///    Transfers a balance from one address to another.
         ///    Args:
+        ///      originator: the transaction originator
         ///      from: The address to transfer funds from.
         ///      to: The adress to transfer funds to.
-        ///      value: The amount of tokens to transfer.
+        ///      amount: The amount of tokens to transfer.
         ///    Returns:
-        ///      bool: Transaction Successful?   
+        ///      byte[]: Transaction Successful?   
         ///  </summary>
-        private static bool TransferFrom(byte[] from, byte[] to, uint value)
+        private static byte[] TransferFrom(byte[] originator, byte[] from, byte[] to, int amount)
         {
 
-            byte[] allocated = Storage.Get(Storage.CurrentContext, from.Concat(originator));
-            byte[] fromValue = Storage.Get(Storage.CurrentContext, from);
-            byte[] toValue = Storage.Get(Storage.CurrentContext, to);
+            var allocated = Storage.Get(Storage.CurrentContext, from.Concat(originator));
+            var fromValue = Storage.Get(Storage.CurrentContext, from);
+            var toValue = Storage.Get(Storage.CurrentContext, to);
 
             if (BitConverter.IsLittleEndian)
             {
@@ -142,17 +142,17 @@ namespace Woolong
                 Array.Reverse(toValue);
             }
 
-            uint allValInt = BitConverter.ToUInt32(allocated, 0);
-            uint fromValInt = BitConverter.ToUInt32(fromValue, 0);
-            uint toValInt = BitConverter.ToUInt32(toValue, 0);
+            var allValInt = BitConverter.ToInt32(allocated, 0);
+            var fromValInt = BitConverter.ToInt32(fromValue, 0);
+            var toValInt = BitConverter.ToInt32(toValue, 0);
 
-            if ((fromValInt >= value) &&
-                (value > 0) &&
+            if ((fromValInt >= amount) &&
+                (amount > 0) &&
                 (allValInt > 0))
             {
-                byte[] newFromVal = BitConverter.GetBytes(fromValInt - value);
-                byte[] newAll = BitConverter.GetBytes(allValInt - value);
-                byte[] newToVal = BitConverter.GetBytes(toValInt + value);
+                var newFromVal = BitConverter.GetBytes(fromValInt - amount);
+                var newAll = BitConverter.GetBytes(allValInt - amount);
+                var newToVal = BitConverter.GetBytes(toValInt + amount);
 
                 if (BitConverter.IsLittleEndian)
                 {
@@ -165,76 +165,35 @@ namespace Woolong
                 Storage.Put(Storage.CurrentContext, to, newToVal);
                 Storage.Put(Storage.CurrentContext, from, newFromVal);
 
-                return true;
+                Runtime.Log("Amount successfully transferred");
+                return new byte[] { 1 };
             }
 
-            return false;
+            Runtime.Log("Transfer Failed");
+            return new byte[] { 0 };
         }
 
 
         ///  <summary>
         ///    Allows a user to withdraw multiple times from an account up to a limit.
         ///    Args:
+        ///      originator: the transaction originator
         ///      spender: the account that will be allowed access
-        ///      value: The amount the spender can withdraw up to.
+        ///      amount: The amount the spender can withdraw up to.
         ///    Returns:
-        ///      bool: Transaction Successful?
+        ///      byte[]: Transaction Successful?
         ///  </summary>
-        private static bool Approve(byte[] spender, uint value)
+        private static byte[] Approve(byte[] originator, byte[] spender, int amount)
         {
-            byte[] val = BitConverter.GetBytes(value);
-
+            byte[] val = BitConverter.GetBytes(amount);
             if (BitConverter.IsLittleEndian)
             {
                 Array.Reverse(val);
             }
 
             Storage.Put(Storage.CurrentContext, originator.Concat(spender), val);
-
-            return true;
-        }
-
-
-        ///  <summary>
-        ///    Returns the amount that a spender is allowed to spend on an owner's account.
-        ///    Args:
-        ///      owner: the acount that is being allowed access to
-        ///      spender: The account that is authorized to spend.
-        ///    Returns:
-        ///      uint: The number of tokens available to the user.
-        ///  </summary>
-        private static uint Allowance(byte[] owner, byte[] spender)
-        {
-            byte[] balance = Storage.Get(Storage.CurrentContext, owner.Concat(spender));
-
-            if (BitConverter.IsLittleEndian)
-            {
-                Array.Reverse(balance);
-            }
-
-            return BitConverter.ToUInt32(balance, 0);
-        }
-
-
-        /// <summary>
-        ///   Deploys the contract tokens. 
-        /// </summary>
-        private static bool Deploy()
-        {
-            if (originator == admin)
-            {
-                byte[] total = BitConverter.GetBytes(supply);
-
-                if (BitConverter.IsLittleEndian)
-                {
-                    Array.Reverse(total);
-                }
-
-                Storage.Put(Storage.CurrentContext, originator, total);
-
-                return true;
-            }
-            return false;
+            Runtime.Log("Ammount successfully approved");
+            return new byte[] { 1 };
         }
     }
 }
