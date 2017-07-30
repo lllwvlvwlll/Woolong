@@ -1,4 +1,4 @@
 Z:\Projects\Tokens\Woolong\Woolong\bin\Release\Woolong.dll
 Z:\Projects\Tokens\Woolong\Woolong\bin\Release\AntShares.SmartContract.Framework.dll
-Z:\Projects\Tokens\Woolong\Woolong\obj\Release\Woolong.dll
 Z:\Projects\Tokens\Woolong\Woolong\obj\Release\Woolong.csprojResolveAssemblyReference.cache
+Z:\Projects\Tokens\Woolong\Woolong\obj\Release\Woolong.dll

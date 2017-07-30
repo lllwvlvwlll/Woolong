@@ -35,6 +35,9 @@
     <Reference Include="AntShares.SmartContract.Framework, Version=2.0.0.5, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\AntShares.SmartContract.Framework.2.0.0.5\lib\net40\AntShares.SmartContract.Framework.dll</HintPath>
     </Reference>
+    <Reference Include="Neo.SmartContract.Framework, Version=2.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Neo.SmartContract.Framework.2.0.0.6\lib\net40\Neo.SmartContract.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
