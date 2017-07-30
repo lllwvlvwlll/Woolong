@@ -1,22 +1,30 @@
-﻿using AntShares.SmartContract.Framework;
-using AntShares.SmartContract.Framework.Services.AntShares;
+﻿using Neo.SmartContract.Framework;
+using Neo.SmartContract.Framework.Services.Neo;
 using System;
+using System.Linq;
+using System.Numerics;
+
+
+/// TODO: endian support
+/// TODO: Allowance support (unknown call exception when adding another case to Main)
 
 namespace Woolong
 {
     public class Woolong : FunctionCode
     {
 
-        public static byte[] Main(byte[] originator, byte[] signature, byte[] byteEvent, byte[] targetPubKeyA, byte[] targetPubKeyB, int amount)
+        //Parameter List: 060005060602
+        //Return List: 05
+        public static byte[] Main(byte[] originator, byte[] signature, string Event, byte[] targetPubKeyA,
+            byte[] targetPubKeyB, int amount)
         {
             //Verify that the user is who they say they are
             if (!VerifySignature(originator, signature))
             {
                 Runtime.Log("The input public key and signature did not match.  Please try again.");
-                return new byte[] { 0 };
+                return new byte[] {0};
             }
-  
-            var Event = System.Text.Encoding.UTF8.GetString(byteEvent);
+
             switch (Event)
             {
                 case "Deploy":
@@ -25,7 +33,7 @@ namespace Woolong
 
                 case "TotalSupply":
                     Runtime.Log("Successfully invoked TotalSupply");
-                    return BitConverter.GetBytes(10000);
+                    return IntToBytes(10000);
 
                 case "BalanceOf":
                     Runtime.Log("Successfully invoked BalanceOf");
@@ -40,16 +48,15 @@ namespace Woolong
                 case "Approve":
                     return Approve(originator, targetPubKeyA, amount);
 
-                case "Allowance":
-                    Runtime.Log("Successfully invoked Allowance");
-                    return Storage.Get(Storage.CurrentContext, targetPubKeyA.Concat(targetPubKeyB));
-
+                //case "Allowance":
+                //    Runtime.Log("Successfully invoked Allowance");
+                //    return Allowance(originator, targetPubKeyA);
+                    
                 default:
                     Runtime.Log("Invalid Event Input");
-                    return new byte[] { 0 };
+                    return new byte[] {0};
             }
         }
-
 
         /// <summary>
         ///   Deploys the contract tokens. 
@@ -58,22 +65,25 @@ namespace Woolong
         {
             //Define the admin public key in byte format (the same format as the one
             //input to invote the Smart Contract.
-            var adminKey = new byte[] { 3, 84, 174, 73, 130, 33, 4, 108, 102,
-                                        110, 254, 187, 174, 233, 189, 14, 180,
-                                        130, 52, 105, 201, 142, 116, 132, 148,
-                                        169, 42, 113, 243, 70, 177, 166, 97 };
+            var adminKey = new byte[]
+            {
+                3, 84, 174, 73, 130, 33, 4, 108, 102,
+                110, 254, 187, 174, 233, 189, 14, 180,
+                130, 52, 105, 201, 142, 116, 132, 148,
+                169, 42, 113, 243, 70, 177, 166, 97
+            };
 
             if (originator != adminKey)
             {
                 Runtime.Log("Please use an admin account to access this Event");
-                return new byte[] { 0 };
+                return new byte[] {0};
             }
-
+            
             //deploy the tokens to the admin
-            var supply = BitConverter.GetBytes(10000);
+            var supply = IntToBytes(10000);
             Storage.Put(Storage.CurrentContext, originator, supply);
             Runtime.Log("Tokens deployed to your account");
-            return new byte[] { 1 };
+            return new byte[] {1};
         }
 
 
@@ -91,19 +101,15 @@ namespace Woolong
             var originatorValue = Storage.Get(Storage.CurrentContext, originator);
             var targetValue = Storage.Get(Storage.CurrentContext, to);
 
-            var nOriginatorValue = BitConverter.ToInt32(originatorValue, 0) - amount;
-            var nTargetValue = BitConverter.ToInt32(targetValue, 0) + amount;
+            var nOriginatorValue = BytesToInt(originatorValue) - amount;
+            var nTargetValue = BytesToInt(targetValue) + amount;
+            
             if (((nOriginatorValue) >= 0) &&
                 (amount > 0))
             {
 
-                var targetByteVal = BitConverter.GetBytes(nTargetValue);
-                var byteVal = BitConverter.GetBytes(nOriginatorValue);
-                if (BitConverter.IsLittleEndian)
-                {
-                    Array.Reverse(targetByteVal);
-                    Array.Reverse(byteVal);
-                }
+                var targetByteVal = IntToBytes(nTargetValue);
+                var byteVal = IntToBytes(nOriginatorValue);
 
                 Storage.Put(Storage.CurrentContext, originator, byteVal);
                 Storage.Put(Storage.CurrentContext, to, targetByteVal);
@@ -112,7 +118,7 @@ namespace Woolong
                 return new byte[] { 1 };
 
             };
-
+            
             Runtime.Log("Tokens failed to transfer");
             return new byte[] { 0 };
         }
@@ -131,35 +137,18 @@ namespace Woolong
         private static byte[] TransferFrom(byte[] originator, byte[] from, byte[] to, int amount)
         {
 
-            var allocated = Storage.Get(Storage.CurrentContext, from.Concat(originator));
-            var fromValue = Storage.Get(Storage.CurrentContext, from);
-            var toValue = Storage.Get(Storage.CurrentContext, to);
-
-            if (BitConverter.IsLittleEndian)
-            {
-                Array.Reverse(allocated);
-                Array.Reverse(fromValue);
-                Array.Reverse(toValue);
-            }
-
-            var allValInt = BitConverter.ToInt32(allocated, 0);
-            var fromValInt = BitConverter.ToInt32(fromValue, 0);
-            var toValInt = BitConverter.ToInt32(toValue, 0);
+            var allValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from.Concat(originator)));
+            var fromValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from));
+            var toValInt = BytesToInt(Storage.Get(Storage.CurrentContext, to));
 
             if ((fromValInt >= amount) &&
                 (amount > 0) &&
                 (allValInt > 0))
             {
-                var newFromVal = BitConverter.GetBytes(fromValInt - amount);
-                var newAll = BitConverter.GetBytes(allValInt - amount);
-                var newToVal = BitConverter.GetBytes(toValInt + amount);
+                var newFromVal = IntToBytes(fromValInt - amount);
+                var newAll = IntToBytes(allValInt - amount);
+                var newToVal = IntToBytes(toValInt + amount);
 
-                if (BitConverter.IsLittleEndian)
-                {
-                    Array.Reverse(newFromVal);
-                    Array.Reverse(newAll);
-                    Array.Reverse(newToVal);
-                }
 
                 Storage.Put(Storage.CurrentContext, from.Concat(originator), newAll);
                 Storage.Put(Storage.CurrentContext, to, newToVal);
@@ -174,6 +163,11 @@ namespace Woolong
         }
 
 
+        private static byte[] Allowance(byte[] originator, byte[] target)
+        {
+            return Storage.Get(Storage.CurrentContext, originator.Concat(target));
+        }
+
         ///  <summary>
         ///    Allows a user to withdraw multiple times from an account up to a limit.
         ///    Args:
@@ -185,15 +179,29 @@ namespace Woolong
         ///  </summary>
         private static byte[] Approve(byte[] originator, byte[] spender, int amount)
         {
-            byte[] val = BitConverter.GetBytes(amount);
-            if (BitConverter.IsLittleEndian)
-            {
-                Array.Reverse(val);
-            }
-
+            var val = IntToBytes(amount);
+            
             Storage.Put(Storage.CurrentContext, originator.Concat(spender), val);
-            Runtime.Log("Ammount successfully approved");
+            Runtime.Log("Amount successfully approved");
             return new byte[] { 1 };
+        }
+
+
+        private static byte[] IntToBytes(int value)
+        {
+            var buffer = new byte[] { };
+            buffer[0] = (byte) value;
+            buffer[1] = (byte) (value >> 8);
+            buffer[2] = (byte) (value >> 0x10);
+            buffer[3] = (byte) (value >> 0x18);
+
+            return buffer;
+        }
+        
+        private static int BytesToInt(byte[] array)
+        {
+            var value = array[0] | (array[1] << 8) | (array[2] << 16) | (array[3] << 24);
+            return value;
         }
     }
 }
