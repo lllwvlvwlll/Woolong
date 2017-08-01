@@ -12,11 +12,32 @@ namespace Woolong
 {
     public class Woolong : FunctionCode
     {
+   
+        public const int Supply = 10000;
 
-        //Parameter List: 060005060602
+        //Parameter List: 060005
         //Return List: 05
-        public static byte[] Main(byte[] originator, byte[] signature, string Event, byte[] targetPubKeyA,
-            byte[] targetPubKeyB, int amount)
+        
+
+        /// <summary>
+        ///   Main deployment function for the Woolong ERC20 token.
+        ///   For this token, we use an object array for input to suppose the 
+        ///   needs of multiple different event types.
+        /// </summary>
+        /// <param name="originator">
+        ///   Public Key (param code 06)
+        /// </param>
+        /// <param name="signature">
+        ///   Signature (param code 00)
+        /// </param>
+        /// <param name="args">
+        ///   args[0] string: The event type
+        ///   args[1] byte[]: Event target A
+        ///   args[2] byte[]: Event target B
+        ///   args[3] int32:  Amount
+        /// </param>
+        /// <returns></returns>
+        public static byte[] Main(byte[] originator, byte[] signature, params object[] args)
         {
             //Verify that the user is who they say they are
             if (!VerifySignature(originator, signature))
@@ -25,7 +46,7 @@ namespace Woolong
                 return new byte[] {0};
             }
 
-            switch (Event)
+            switch ( (string)args[0] )
             {
                 case "Deploy":
                     Runtime.Log("Attempting to deploy the smart contract tokens");
@@ -33,24 +54,24 @@ namespace Woolong
 
                 case "TotalSupply":
                     Runtime.Log("Successfully invoked TotalSupply");
-                    return IntToBytes(10000);
+                    return IntToBytes(Supply);
 
                 case "BalanceOf":
                     Runtime.Log("Successfully invoked BalanceOf");
-                    return Storage.Get(Storage.CurrentContext, targetPubKeyA);
+                    return Storage.Get(Storage.CurrentContext, (byte[])args[1] );
 
                 case "Transfer":
-                    return Transfer(originator, targetPubKeyA, amount);
+                    return Transfer(originator, (byte[])args[1], (int)args[2]);
 
                 case "TransferFrom":
-                    return TransferFrom(originator, targetPubKeyA, targetPubKeyB, amount);
+                    return TransferFrom(originator, (byte[])args[1], (byte[])args[2], (int)args[2]);
 
                 case "Approve":
-                    return Approve(originator, targetPubKeyA, amount);
+                    return Approve(originator, (byte[])args[1], (int)args[2]);
 
                 //case "Allowance":
                 //    Runtime.Log("Successfully invoked Allowance");
-                //    return Allowance(originator, targetPubKeyA);
+                //    return Allowance(originator, (byte[])args[1]);
                     
                 default:
                     Runtime.Log("Invalid Event Input");
@@ -58,6 +79,7 @@ namespace Woolong
             }
         }
 
+        
         /// <summary>
         ///   Deploys the contract tokens. 
         /// </summary>
@@ -80,8 +102,7 @@ namespace Woolong
             }
             
             //deploy the tokens to the admin
-            var supply = IntToBytes(10000);
-            Storage.Put(Storage.CurrentContext, originator, supply);
+            Storage.Put(Storage.CurrentContext, originator, IntToBytes(Supply));
             Runtime.Log("Tokens deployed to your account");
             return new byte[] {1};
         }
@@ -168,6 +189,7 @@ namespace Woolong
             return Storage.Get(Storage.CurrentContext, originator.Concat(target));
         }
 
+        
         ///  <summary>
         ///    Allows a user to withdraw multiple times from an account up to a limit.
         ///    Args:
@@ -197,6 +219,7 @@ namespace Woolong
 
             return buffer;
         }
+        
         
         private static int BytesToInt(byte[] array)
         {
