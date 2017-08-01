@@ -15,14 +15,14 @@ namespace Woolong
    
         public const int Supply = 10000;
 
-        //Parameter List: 060005
-        //Return List: 05
-        
-
         /// <summary>
         ///   Main deployment function for the Woolong ERC20 token.
         ///   For this token, we use an object array for input to suppose the 
         ///   needs of multiple different event types.
+        /// 
+        ///   Parameter List: 060005
+        ///   Return List: 05
+        /// 
         /// </summary>
         /// <param name="originator">
         ///   Public Key (param code 06)
@@ -37,13 +37,13 @@ namespace Woolong
         ///   args[3] int32:  Amount
         /// </param>
         /// <returns></returns>
-        public static byte[] Main(byte[] originator, byte[] signature, params object[] args)
+        public static object Main(byte[] originator, byte[] signature, params object[] args)
         {
             //Verify that the user is who they say they are
             if (!VerifySignature(originator, signature))
             {
                 Runtime.Log("The input public key and signature did not match.  Please try again.");
-                return new byte[] {0};
+                return false;
             }
 
             switch ( (string)args[0] )
@@ -75,7 +75,7 @@ namespace Woolong
                     
                 default:
                     Runtime.Log("Invalid Event Input");
-                    return new byte[] {0};
+                    return false;
             }
         }
 
@@ -83,7 +83,7 @@ namespace Woolong
         /// <summary>
         ///   Deploys the contract tokens. 
         /// </summary>
-        private static byte[] Deploy(byte[] originator)
+        private static bool Deploy(byte[] originator)
         {
             //Define the admin public key in byte format (the same format as the one
             //input to invote the Smart Contract.
@@ -98,13 +98,13 @@ namespace Woolong
             if (originator != adminKey)
             {
                 Runtime.Log("Please use an admin account to access this Event");
-                return new byte[] {0};
+                return false;
             }
             
             //deploy the tokens to the admin
             Storage.Put(Storage.CurrentContext, originator, IntToBytes(Supply));
             Runtime.Log("Tokens deployed to your account");
-            return new byte[] {1};
+            return true;
         }
 
 
@@ -115,9 +115,9 @@ namespace Woolong
         ///      to: The address to transfer tokens to.
         ///      amount: The amount of tokens to transfer.
         ///    Returns: 
-        ///      byte[]: Transaction Successful?.   
+        ///      bool: Transaction Successful?.   
         ///  </summary>
-        private static byte[] Transfer(byte[] originator, byte[] to, int amount)
+        private static bool Transfer(byte[] originator, byte[] to, int amount)
         {
             var originatorValue = Storage.Get(Storage.CurrentContext, originator);
             var targetValue = Storage.Get(Storage.CurrentContext, to);
@@ -136,12 +136,12 @@ namespace Woolong
                 Storage.Put(Storage.CurrentContext, to, targetByteVal);
 
                 Runtime.Log("Tokens successfully transferred");
-                return new byte[] { 1 };
+                return true;
 
             };
             
             Runtime.Log("Tokens failed to transfer");
-            return new byte[] { 0 };
+            return false;
         }
 
 
@@ -153,9 +153,9 @@ namespace Woolong
         ///      to: The adress to transfer funds to.
         ///      amount: The amount of tokens to transfer.
         ///    Returns:
-        ///      byte[]: Transaction Successful?   
+        ///      bool: Transaction Successful?   
         ///  </summary>
-        private static byte[] TransferFrom(byte[] originator, byte[] from, byte[] to, int amount)
+        private static bool TransferFrom(byte[] originator, byte[] from, byte[] to, int amount)
         {
 
             var allValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from.Concat(originator)));
@@ -176,17 +176,17 @@ namespace Woolong
                 Storage.Put(Storage.CurrentContext, from, newFromVal);
 
                 Runtime.Log("Amount successfully transferred");
-                return new byte[] { 1 };
+                return true;
             }
 
             Runtime.Log("Transfer Failed");
-            return new byte[] { 0 };
+            return true;
         }
 
 
-        private static byte[] Allowance(byte[] originator, byte[] target)
+        private static int Allowance(byte[] originator, byte[] target)
         {
-            return Storage.Get(Storage.CurrentContext, originator.Concat(target));
+            return BytesToInt(Storage.Get(Storage.CurrentContext, originator.Concat(target)));
         }
 
         
@@ -197,15 +197,15 @@ namespace Woolong
         ///      spender: the account that will be allowed access
         ///      amount: The amount the spender can withdraw up to.
         ///    Returns:
-        ///      byte[]: Transaction Successful?
+        ///      bool: Transaction Successful?
         ///  </summary>
-        private static byte[] Approve(byte[] originator, byte[] spender, int amount)
+        private static bool Approve(byte[] originator, byte[] spender, int amount)
         {
             var val = IntToBytes(amount);
             
             Storage.Put(Storage.CurrentContext, originator.Concat(spender), val);
             Runtime.Log("Amount successfully approved");
-            return new byte[] { 1 };
+            return true;
         }
 
 

@@ -18,35 +18,34 @@
       <file leaf-file-name="Woolong.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+            <state relative-caret-position="673">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
-                <marker date="1501561205258" expanded="true" signature="6:138" ph="..." />
-                <marker date="1501561205258" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
-                <marker date="1501561205258" expanded="true" signature="270:8211" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="312:8209" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="373:423" ph="/* Parameter List: 060005 ... */" />
-                <marker date="1501561205258" expanded="true" signature="442:1135" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-                <marker date="1501561205258" expanded="true" signature="1228:2784" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="1355:1523" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="1563:2774" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="2458:2615" ph="/* case &quot;Allowance&quot;: ... */" />
-                <marker date="1501561205258" expanded="true" signature="2803:2883" ph="///   Deploys the contract tokens.  ... " />
-                <marker date="1501561205258" expanded="true" signature="2939:3800" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="2962:3084" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-                <marker date="1501561205258" expanded="true" signature="3135:3366" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="3408:3556" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="3811:4178" ph="///    Transfers a balance to an address ... " />
-                <marker date="1501561205258" expanded="true" signature="4259:5170" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="4650:5055" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="5181:5608" ph="///    Transfers a balance from one address to another. ... " />
-                <marker date="1501561205258" expanded="true" signature="5706:6732" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="6091:6640" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="6808:6911" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="6930:7339" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-                <marker date="1501561205258" expanded="true" signature="7424:7675" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="7729:7997" ph="{...}" />
-                <marker date="1501561205258" expanded="true" signature="8067:8203" ph="{...}" />
+                <marker date="1501563004643" expanded="false" signature="6:138" ph="..." />
+                <marker date="1501563004643" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
+                <marker date="1501563004643" expanded="true" signature="270:8134" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="312:8132" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="373:1159" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
+                <marker date="1501563004643" expanded="true" signature="1252:2790" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="1379:1538" ph="{...}" />
+                <marker date="1501563004643" expanded="false" signature="1578:2780" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="2473:2630" ph="/* case &quot;Allowance&quot;: ... */" />
+                <marker date="1501563004643" expanded="false" signature="2809:2889" ph="///   Deploys the contract tokens.  ... " />
+                <marker date="1501563004643" expanded="false" signature="2943:3785" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="2966:3088" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
+                <marker date="1501563004643" expanded="true" signature="3139:3370" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="3412:3551" ph="{...}" />
+                <marker date="1501563004643" expanded="false" signature="3796:4161" ph="///    Transfers a balance to an address ... " />
+                <marker date="1501563004643" expanded="true" signature="4240:5128" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="4631:5024" ph="{...}" />
+                <marker date="1501563004643" expanded="false" signature="5139:5564" ph="///    Transfers a balance from one address to another. ... " />
+                <marker date="1501563004643" expanded="false" signature="5660:6662" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="6045:6582" ph="{...}" />
+                <marker date="1501563004643" expanded="false" signature="6735:6850" ph="{...}" />
+                <marker date="1501563004643" expanded="false" signature="6869:7276" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
+                <marker date="1501563004643" expanded="false" signature="7359:7598" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="7652:7920" ph="{...}" />
+                <marker date="1501563004643" expanded="true" signature="7990:8126" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,6 +67,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Woolong/Resources1.resx" />
+        <option value="$PROJECT_DIR$/Woolong/supplement.cs" />
         <option value="$PROJECT_DIR$/Woolong/Woolong.cs" />
       </list>
     </option>
@@ -111,6 +112,10 @@
               <option name="myItemId" value="Woolong (1 project)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Woolong" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
@@ -120,6 +125,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../neo/neo-GUI/neo-vm.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,11 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501442740612</updated>
       <workItem from="1501442743446" duration="5356000" />
+      <workItem from="1501562444251" duration="558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7047000" />
+    <option name="totallyTimeSpent" value="8271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,43 +244,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009061834" sideWeight="0.49485862" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15342765" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009061834" sideWeight="0.5051414" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009120172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15342765" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,32 +286,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501561205258" expanded="true" signature="6:138" ph="..." />
-            <marker date="1501561205258" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
-            <marker date="1501561205258" expanded="true" signature="270:8211" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="312:8209" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="373:423" ph="/* Parameter List: 060005 ... */" />
-            <marker date="1501561205258" expanded="true" signature="442:1135" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1501561205258" expanded="true" signature="1228:2784" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1355:1523" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1563:2774" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2458:2615" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1501561205258" expanded="true" signature="2803:2883" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1501561205258" expanded="true" signature="2939:3800" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2962:3084" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1501561205258" expanded="true" signature="3135:3366" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3408:3556" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3811:4178" ph="///    Transfers a balance to an address ... " />
-            <marker date="1501561205258" expanded="true" signature="4259:5170" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="4650:5055" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="5181:5608" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1501561205258" expanded="true" signature="5706:6732" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6091:6640" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6808:6911" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6930:7339" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1501561205258" expanded="true" signature="7424:7675" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="7729:7997" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="8067:8203" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6:138" ph="..." />
+            <marker date="1501563004643" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
+            <marker date="1501563004643" expanded="true" signature="270:8134" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="312:8132" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="373:1159" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
+            <marker date="1501563004643" expanded="true" signature="1252:2790" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="1379:1538" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="1578:2780" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2473:2630" ph="/* case &quot;Allowance&quot;: ... */" />
+            <marker date="1501563004643" expanded="false" signature="2809:2889" ph="///   Deploys the contract tokens.  ... " />
+            <marker date="1501563004643" expanded="false" signature="2943:3785" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2966:3088" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
+            <marker date="1501563004643" expanded="true" signature="3139:3370" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="3412:3551" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="3796:4161" ph="///    Transfers a balance to an address ... " />
+            <marker date="1501563004643" expanded="true" signature="4240:5128" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="4631:5024" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="5139:5564" ph="///    Transfers a balance from one address to another. ... " />
+            <marker date="1501563004643" expanded="false" signature="5660:6662" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="6045:6582" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6735:6850" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6869:7276" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
+            <marker date="1501563004643" expanded="false" signature="7359:7598" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7652:7920" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7990:8126" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501563004643" expanded="false" signature="6:138" ph="..." />
+            <marker date="1501563004643" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
+            <marker date="1501563004643" expanded="true" signature="270:8134" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="312:8132" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="373:1159" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
+            <marker date="1501563004643" expanded="true" signature="1252:2790" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="1379:1538" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="1578:2780" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2473:2630" ph="/* case &quot;Allowance&quot;: ... */" />
+            <marker date="1501563004643" expanded="false" signature="2809:2889" ph="///   Deploys the contract tokens.  ... " />
+            <marker date="1501563004643" expanded="false" signature="2943:3785" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2966:3088" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
+            <marker date="1501563004643" expanded="true" signature="3139:3370" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="3412:3551" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="3796:4161" ph="///    Transfers a balance to an address ... " />
+            <marker date="1501563004643" expanded="true" signature="4240:5128" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="4631:5024" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="5139:5564" ph="///    Transfers a balance from one address to another. ... " />
+            <marker date="1501563004643" expanded="false" signature="5660:6662" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="6045:6582" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6735:6850" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6869:7276" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
+            <marker date="1501563004643" expanded="false" signature="7359:7598" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7652:7920" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7990:8126" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -334,32 +361,31 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1501561205258" expanded="true" signature="6:138" ph="..." />
-            <marker date="1501561205258" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
-            <marker date="1501561205258" expanded="true" signature="270:8211" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="312:8209" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="373:423" ph="/* Parameter List: 060005 ... */" />
-            <marker date="1501561205258" expanded="true" signature="442:1135" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1501561205258" expanded="true" signature="1228:2784" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1355:1523" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1563:2774" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2458:2615" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1501561205258" expanded="true" signature="2803:2883" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1501561205258" expanded="true" signature="2939:3800" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2962:3084" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1501561205258" expanded="true" signature="3135:3366" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3408:3556" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3811:4178" ph="///    Transfers a balance to an address ... " />
-            <marker date="1501561205258" expanded="true" signature="4259:5170" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="4650:5055" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="5181:5608" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1501561205258" expanded="true" signature="5706:6732" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6091:6640" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6808:6911" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6930:7339" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1501561205258" expanded="true" signature="7424:7675" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="7729:7997" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="8067:8203" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6:138" ph="..." />
+            <marker date="1501563004643" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
+            <marker date="1501563004643" expanded="true" signature="270:8134" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="312:8132" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="373:1159" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
+            <marker date="1501563004643" expanded="true" signature="1252:2790" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="1379:1538" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="1578:2780" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2473:2630" ph="/* case &quot;Allowance&quot;: ... */" />
+            <marker date="1501563004643" expanded="false" signature="2809:2889" ph="///   Deploys the contract tokens.  ... " />
+            <marker date="1501563004643" expanded="false" signature="2943:3785" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2966:3088" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
+            <marker date="1501563004643" expanded="true" signature="3139:3370" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="3412:3551" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="3796:4161" ph="///    Transfers a balance to an address ... " />
+            <marker date="1501563004643" expanded="true" signature="4240:5128" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="4631:5024" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="5139:5564" ph="///    Transfers a balance from one address to another. ... " />
+            <marker date="1501563004643" expanded="false" signature="5660:6662" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="6045:6582" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6735:6850" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6869:7276" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
+            <marker date="1501563004643" expanded="false" signature="7359:7598" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7652:7920" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7990:8126" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -376,32 +402,31 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1501561205258" expanded="true" signature="6:138" ph="..." />
-            <marker date="1501561205258" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
-            <marker date="1501561205258" expanded="true" signature="270:8211" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="312:8209" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="373:423" ph="/* Parameter List: 060005 ... */" />
-            <marker date="1501561205258" expanded="true" signature="442:1135" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1501561205258" expanded="true" signature="1228:2784" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1355:1523" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1563:2774" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2458:2615" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1501561205258" expanded="true" signature="2803:2883" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1501561205258" expanded="true" signature="2939:3800" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2962:3084" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1501561205258" expanded="true" signature="3135:3366" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3408:3556" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3811:4178" ph="///    Transfers a balance to an address ... " />
-            <marker date="1501561205258" expanded="true" signature="4259:5170" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="4650:5055" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="5181:5608" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1501561205258" expanded="true" signature="5706:6732" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6091:6640" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6808:6911" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6930:7339" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1501561205258" expanded="true" signature="7424:7675" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="7729:7997" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="8067:8203" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6:138" ph="..." />
+            <marker date="1501563004643" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
+            <marker date="1501563004643" expanded="true" signature="270:8134" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="312:8132" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="373:1159" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
+            <marker date="1501563004643" expanded="true" signature="1252:2790" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="1379:1538" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="1578:2780" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2473:2630" ph="/* case &quot;Allowance&quot;: ... */" />
+            <marker date="1501563004643" expanded="false" signature="2809:2889" ph="///   Deploys the contract tokens.  ... " />
+            <marker date="1501563004643" expanded="false" signature="2943:3785" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2966:3088" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
+            <marker date="1501563004643" expanded="true" signature="3139:3370" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="3412:3551" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="3796:4161" ph="///    Transfers a balance to an address ... " />
+            <marker date="1501563004643" expanded="true" signature="4240:5128" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="4631:5024" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="5139:5564" ph="///    Transfers a balance from one address to another. ... " />
+            <marker date="1501563004643" expanded="false" signature="5660:6662" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="6045:6582" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6735:6850" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6869:7276" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
+            <marker date="1501563004643" expanded="false" signature="7359:7598" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7652:7920" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7990:8126" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -413,37 +438,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Resources1.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/supplement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        <state relative-caret-position="673">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
-            <marker date="1501561205258" expanded="true" signature="6:138" ph="..." />
-            <marker date="1501561205258" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
-            <marker date="1501561205258" expanded="true" signature="270:8211" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="312:8209" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="373:423" ph="/* Parameter List: 060005 ... */" />
-            <marker date="1501561205258" expanded="true" signature="442:1135" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1501561205258" expanded="true" signature="1228:2784" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1355:1523" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="1563:2774" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2458:2615" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1501561205258" expanded="true" signature="2803:2883" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1501561205258" expanded="true" signature="2939:3800" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="2962:3084" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1501561205258" expanded="true" signature="3135:3366" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3408:3556" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="3811:4178" ph="///    Transfers a balance to an address ... " />
-            <marker date="1501561205258" expanded="true" signature="4259:5170" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="4650:5055" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="5181:5608" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1501561205258" expanded="true" signature="5706:6732" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6091:6640" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6808:6911" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="6930:7339" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1501561205258" expanded="true" signature="7424:7675" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="7729:7997" ph="{...}" />
-            <marker date="1501561205258" expanded="true" signature="8067:8203" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6:138" ph="..." />
+            <marker date="1501563004643" expanded="true" signature="141:251" ph="/* TODO: endian support ... */" />
+            <marker date="1501563004643" expanded="true" signature="270:8134" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="312:8132" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="373:1159" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
+            <marker date="1501563004643" expanded="true" signature="1252:2790" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="1379:1538" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="1578:2780" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2473:2630" ph="/* case &quot;Allowance&quot;: ... */" />
+            <marker date="1501563004643" expanded="false" signature="2809:2889" ph="///   Deploys the contract tokens.  ... " />
+            <marker date="1501563004643" expanded="false" signature="2943:3785" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="2966:3088" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
+            <marker date="1501563004643" expanded="true" signature="3139:3370" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="3412:3551" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="3796:4161" ph="///    Transfers a balance to an address ... " />
+            <marker date="1501563004643" expanded="true" signature="4240:5128" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="4631:5024" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="5139:5564" ph="///    Transfers a balance from one address to another. ... " />
+            <marker date="1501563004643" expanded="false" signature="5660:6662" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="6045:6582" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6735:6850" ph="{...}" />
+            <marker date="1501563004643" expanded="false" signature="6869:7276" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
+            <marker date="1501563004643" expanded="false" signature="7359:7598" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7652:7920" ph="{...}" />
+            <marker date="1501563004643" expanded="true" signature="7990:8126" ph="{...}" />
           </folding>
         </state>
       </provider>
