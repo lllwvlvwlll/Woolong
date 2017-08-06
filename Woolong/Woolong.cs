@@ -27,7 +27,7 @@ namespace Woolong
         /// <param name="originator">
         ///   Public Key (param code 06)
         /// </param>
-        /// <param name="signature">
+        /// <param name="signature"> 
         ///   Signature (param code 00)
         /// </param>
         /// <param name="args">
@@ -37,37 +37,43 @@ namespace Woolong
         ///   args[3] int32:  Amount
         /// </param>
         /// <returns></returns>
-        public static object Main(byte[] originator, byte[] signature, params object[] args)
+        /// byte[] originator, byte[] signature
+        public static object Main(byte[] originator, string Event, params object[] args)
         {
-            //Verify that the user is who they say they are
-            if (!VerifySignature(originator, signature))
-            {
-                Runtime.Log("The input public key and signature did not match.  Please try again.");
-                return false;
-            }
+            Runtime.Log("Contract Invoked by " + originator);
 
-            switch ( (string)args[0] )
+            Runtime.Log("running");
+            //Runtime.Log("Sig: " + signature);
+            
+            //Verify that the user is who they say they are
+            //if (!VerifySignature(originator, signature))
+            //{
+            //    Runtime.Log("The input public key and signature did not match.  Please try again.");
+            //    return false;
+            //}
+         
+            switch ( Event )
             {
                 case "Deploy":
-                    Runtime.Log("Attempting to deploy the smart contract tokens");
                     return Deploy(originator);
 
                 case "TotalSupply":
-                    Runtime.Log("Successfully invoked TotalSupply");
+                    Runtime.Log("Successfully invoked TotalSupply Expecting: " + Supply);
                     return IntToBytes(Supply);
 
                 case "BalanceOf":
                     Runtime.Log("Successfully invoked BalanceOf");
-                    return Storage.Get(Storage.CurrentContext, (byte[])args[1] );
+                    Runtime.Log("Variables: " + (byte[]) args[0]);
+                    return Storage.Get(Storage.CurrentContext, (byte[])args[0] );
 
                 case "Transfer":
-                    return Transfer(originator, (byte[])args[1], (int)args[2]);
+                    return Transfer(originator, (byte[])args[0], (int)args[1]);
 
                 case "TransferFrom":
-                    return TransferFrom(originator, (byte[])args[1], (byte[])args[2], (int)args[2]);
+                    return TransferFrom(originator, (byte[])args[0], (byte[])args[1], (int)args[2]);
 
                 case "Approve":
-                    return Approve(originator, (byte[])args[1], (int)args[2]);
+                    return Approve(originator, (byte[])args[0], (int)args[1]);
 
                 //case "Allowance":
                 //    Runtime.Log("Successfully invoked Allowance");
@@ -119,11 +125,17 @@ namespace Woolong
         ///  </summary>
         private static bool Transfer(byte[] originator, byte[] to, int amount)
         {
+            Runtime.Log("Successfully Invoked Transfer");
+            Runtime.Log("Variables: Origination: " + originator + " to: " + to + " amount: " + amount);
             var originatorValue = Storage.Get(Storage.CurrentContext, originator);
             var targetValue = Storage.Get(Storage.CurrentContext, to);
-
+            Runtime.Log("Originator Value: " + originatorValue);
+            Runtime.Log("To Value: " + targetValue);
+            
             var nOriginatorValue = BytesToInt(originatorValue) - amount;
             var nTargetValue = BytesToInt(targetValue) + amount;
+            Runtime.Log("New Originator Value: " + nOriginatorValue);
+            Runtime.Log("New To Value: " + nTargetValue);
             
             if (((nOriginatorValue) >= 0) &&
                 (amount > 0))
@@ -158,10 +170,15 @@ namespace Woolong
         private static bool TransferFrom(byte[] originator, byte[] from, byte[] to, int amount)
         {
 
+            Runtime.Log("Successfully Invoked TransferFrom");
+            Runtime.Log("Variables: originator: " + originator + " from: " + from + " to: " + to + " amount: " + amount);
             var allValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from.Concat(originator)));
             var fromValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from));
             var toValInt = BytesToInt(Storage.Get(Storage.CurrentContext, to));
-
+            Runtime.Log("allValInt: " + allValInt);
+            Runtime.Log("fromValInt: " + fromValInt);
+            Runtime.Log("toValInt: " + toValInt);
+            
             if ((fromValInt >= amount) &&
                 (amount > 0) &&
                 (allValInt > 0))
@@ -169,7 +186,10 @@ namespace Woolong
                 var newFromVal = IntToBytes(fromValInt - amount);
                 var newAll = IntToBytes(allValInt - amount);
                 var newToVal = IntToBytes(toValInt + amount);
-
+                Runtime.Log("newFromVal: " + newFromVal);
+                Runtime.Log("newAll: " + newAll);
+                Runtime.Log("newToVal: " + newToVal);
+                
 
                 Storage.Put(Storage.CurrentContext, from.Concat(originator), newAll);
                 Storage.Put(Storage.CurrentContext, to, newToVal);
@@ -201,30 +221,55 @@ namespace Woolong
         ///  </summary>
         private static bool Approve(byte[] originator, byte[] spender, int amount)
         {
+            Runtime.Log("Successfully invoked Approve");
+            Runtime.Log("Variables: originator: " + originator + " spender: " + spender + " amount: " + amount);
             var val = IntToBytes(amount);
+            Runtime.Log("Val: " + val);
             
             Storage.Put(Storage.CurrentContext, originator.Concat(spender), val);
             Runtime.Log("Amount successfully approved");
             return true;
         }
 
-
+/*
         private static byte[] IntToBytes(int value)
         {
-            var buffer = new byte[] { };
+            Runtime.Log("ITB int: " + value);
+            var buffer = new byte[4] ;
             buffer[0] = (byte) value;
             buffer[1] = (byte) (value >> 8);
             buffer[2] = (byte) (value >> 0x10);
             buffer[3] = (byte) (value >> 0x18);
-
+            for (int i = 0; i < buffer.Length; i++)
+            {
+                Runtime.Log("ITB: " + buffer[i]);
+            }    
+            return buffer;
+        }
+*/
+        private static byte[] IntToBytes(int value)
+        {
+            
+            Runtime.Log("ITB int: " + value);
+            byte[] buffer = ((BigInteger)value).ToByteArray();
+            
+            for (int i = 0; i < buffer.Length; i++)
+            {
+                Runtime.Log("ITB: " + buffer[i]);
+            } 
             return buffer;
         }
         
-        
         private static int BytesToInt(byte[] array)
         {
+            for (int i = 0; i < array.Length; i++)
+            {
+                Runtime.Log("BTI: " + array[i]);
+            }    
             var value = array[0] | (array[1] << 8) | (array[2] << 16) | (array[3] << 24);
+            Runtime.Log("BTI int: " + value);
             return value;
         }
+        
     }
 }
