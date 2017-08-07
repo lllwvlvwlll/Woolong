@@ -30,7 +30,7 @@ namespace Woolong
         ///   Optional input parameters used by the ERC20 methods.  These will be collapsed with a params
         ///   input once the GUI is enhanced to support option inputs.
         /// </param>
-        public static object Main(byte[] originator, string Event, byte[] args0, byte[] args1, byte[]args2)
+        public static object Main(byte[] originator, string Event, byte[] args0, byte[] args1, byte[] args2)
        {
             Runtime.Log("Contract Invoked by " + originator);
             Runtime.Log("Event: " + Event);
