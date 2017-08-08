@@ -18,34 +18,29 @@
       <file leaf-file-name="Woolong.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="258">
+              <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
               <folding>
-                <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-                <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-                <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-                <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-                <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-                <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-                <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-                <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-                <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-                <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-                <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+                <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+                <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+                <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+                <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+                <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+                <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+                <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+                <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+                <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+                <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+                <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+                <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+                <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -230,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49612000" />
+    <option name="totallyTimeSpent" value="53569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,31 +295,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -334,31 +324,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -368,31 +353,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -402,31 +382,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -443,31 +418,26 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -484,31 +454,26 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -527,31 +492,26 @@
         <state relative-caret-position="712">
           <caret line="207" column="1" lean-forward="false" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -561,31 +521,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -595,31 +550,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -629,31 +579,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -663,31 +608,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -704,31 +644,26 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -745,31 +680,26 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -785,34 +715,481 @@
     <entry file="file://$PROJECT_DIR$/Woolong/supplement.cs" />
     <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="21">
+          <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding>
-            <marker date="1502078608913" expanded="true" signature="6:119" ph="..." />
-            <marker date="1502078608913" expanded="true" signature="122:288" ph="/* TODO: params flag support (this requires additional funtionality on the GUI. ... */" />
-            <marker date="1502078608913" expanded="true" signature="307:9178" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="349:9176" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="367:1106" ph="///   Main deployment function for the Woolong ERC20 token. ... " />
-            <marker date="1502078608913" expanded="true" signature="1215:2938" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1512:1618" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="1660:2928" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="2621:2778" ph="/* case &quot;Allowance&quot;: ... */" />
-            <marker date="1502078608913" expanded="true" signature="2957:3037" ph="///   Deploys the contract tokens.  ... " />
-            <marker date="1502078608913" expanded="true" signature="3105:3921" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3128:3250" ph="/* Define the admin public key in byte format (the same format as the one ... */" />
-            <marker date="1502078608913" expanded="true" signature="3301:3532" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3574:3713" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="3932:4297" ph="///    Transfers a balance to an address ... " />
-            <marker date="1502078608913" expanded="true" signature="4379:5823" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5326:5719" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="5834:6259" ph="///    Transfers a balance from one address to another. ... " />
-            <marker date="1502078608913" expanded="true" signature="6362:7775" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="6980:7695" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7855:7970" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="7989:8396" ph="///    Allows a user to withdraw multiple times from an account up to a limit. ... " />
-            <marker date="1502078608913" expanded="true" signature="8486:8822" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="8892:8988" ph="{...}" />
-            <marker date="1502078608913" expanded="true" signature="9065:9160" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2017.1/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2017_07_30_20_33_30_0630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2017.1/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2017_07_30_20_33_30_0630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2017.1/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2017_07_30_20_33_30_0630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Resources1.resx" />
+    <entry file="file://$PROJECT_DIR$/Woolong/supplement.cs" />
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="207" column="1" lean-forward="false" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2017.1/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2017_07_30_20_33_30_0630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2017.1/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2017_07_30_20_33_30_0630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2017.1/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2017_07_30_20_33_30_0630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Woolong/Resources1.resx" />
+    <entry file="file://$PROJECT_DIR$/Woolong/supplement.cs" />
+    <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding>
+            <marker date="1502156513498" expanded="true" signature="6:105" ph="..." />
+            <marker date="1502156513498" expanded="true" signature="125:7348" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="167:7346" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="183:1099" ph="///   This smart contract is designed to replacate the  ... " />
+            <marker date="1502156513498" expanded="true" signature="1209:1959" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="1978:2347" ph="///   Deploys the tokens to the admin account ... " />
+            <marker date="1502156513498" expanded="false" signature="2420:2859" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="2443:2588" ph="/* Define the admin public key in byte format ... */" />
+            <marker date="1502156513498" expanded="false" signature="2870:3323" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502156513498" expanded="false" signature="3409:4104" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="3833:4068" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="4115:4739" ph="///   Transfers a balance from one account to another ... " />
+            <marker date="1502156513498" expanded="false" signature="4842:5607" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="5224:5571" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="5626:6173" ph="///   Approves another user to use the TransferFrom ... " />
+            <marker date="1502156513498" expanded="false" signature="6254:6379" ph="{...}" />
+            <marker date="1502156513498" expanded="false" signature="6397:6826" ph="///   Checks the TransferFrom approval of two accounts. ... " />
+            <marker date="1502156513498" expanded="true" signature="6894:6999" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7068:7164" ph="{...}" />
+            <marker date="1502156513498" expanded="true" signature="7235:7330" ph="{...}" />
           </folding>
         </state>
       </provider>
