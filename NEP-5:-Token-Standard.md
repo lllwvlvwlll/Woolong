@@ -1,7 +1,7 @@
 ## Proposal
 Name: NEP-5<br/>
 Title:Token Standard<br/>
-Author: luodanwg <luodan.wg@gmail.com>, tanyuan <tanyuan@onchain.com><br/>
+Author: luodanwg <luodan.wg@gmail.com>, tanyuan <tanyuan666@gmail.com><br/>
 Status: Draft<br/>
 Created: 9 August 2017<br/>
 Resolution: <a href="https://github.com/neo-project/proposals/pull/1"> Proposals </a><br/>
