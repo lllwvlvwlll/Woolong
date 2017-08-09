@@ -35,7 +35,7 @@ Contracts that work with tokens
 
 <p><strong> transfer </strong></p>
 <pre><code> private static bool transfer(object[] args) </pre></code>
-<p>function that is always called when someone wants to transfer tokens. The first element is sender address and type is <strong>byte[]</strong>, the second element is the receiver address and type is <strong>byte[]</strong>, the third element is the number of token and type is <strong> BigInteger </strong>. </p>
+<p>function that is always called when someone wants to transfer tokens. The first element is sender address and type is <strong>byte[]</strong>, the second element is receiver address and type is <strong>byte[]</strong>, the third element is the number of token and type is <strong> BigInteger </strong>. </p>
 
 <h2> Event </h2>
 <p><strong> Transfer </strong></p>
