@@ -40,4 +40,4 @@ Contracts that work with tokens
 <h2> Event </h2>
 <p><strong> Transfer </strong></p>
 <pre><code> private static void Transfer(object[] args)</pre></code>
-<p>Triggered when tokens are transferred.</p>
+<p>Triggered when tokens are transferred. args is the same with transfer.</p>
