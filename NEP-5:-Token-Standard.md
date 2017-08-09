@@ -4,8 +4,8 @@ Title:Token Standard<br/>
 Author:翁俊杰 <wengjunjie@onchain.com>, 谈元 <tanyuan@onchain.com><br/>
 Status: Draft<br/>
 Created: 9 August 2017<br/>
-Resolution: <a href="https://github.com/neo-project/proposals/pull/1"> NEP-5 Token Standard</a><br/>
-Template:  <a href="https://github.com/tanZiWen/neo/wiki/NEO_NEP_5">NEO_NEP_5 Template</a><br/>
+Resolution: <a href="https://github.com/neo-project/proposals/pull/1"> NEP-5 Resolution</a><br/>
+Template:  <a href="https://github.com/tanZiWen/neo/wiki/NEO_NEP_5">NEP-5 Template</a><br/>
 <h2> Abstract </h2>
 <p>The following describes standard functions a token contract can implement.</p>
 <h2> Specification </h2>
