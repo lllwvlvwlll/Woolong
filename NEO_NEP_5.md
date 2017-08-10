@@ -61,11 +61,11 @@ namespace NEO_NEP_5
             BigInteger n_to_value = BytesToInt(to_value) + value;
             Storage.Put(Storage.CurrentContext, from, IntToBytes(n_from_value));
             Storage.Put(Storage.CurrentContext, to, IntToBytes(n_to_value));
-            Transfer(args);
+            Transferred(args);
             return true;
         }
 
-        private static void Transfer(object[] args)
+        private static void Transferred(object[] args)
         {
             Runtime.Notify(args);
         }
