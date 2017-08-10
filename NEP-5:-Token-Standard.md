@@ -38,6 +38,6 @@ Contracts that work with tokens
 <p>function that is always called when someone wants to transfer tokens. The first element is sender address and type is <strong>byte[]</strong>, the second element is receiver address and type is <strong>byte[]</strong>, the third element is the number of token and type is <strong> BigInteger </strong>. </p>
 
 <h2> Event </h2>
-<p><strong> Transfer </strong></p>
-<pre><code> private static void Transfer(object[] args)</pre></code>
+<p><strong> Transferred </strong></p>
+<pre><code> private static void Transferred(object[] args)</pre></code>
 <p>Triggered when tokens are transferred. args is the same with transfer.</p>
