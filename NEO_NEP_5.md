@@ -13,40 +13,40 @@ namespace NEO_NEP_5
             switch(operation)
             {
                 case "totalSupply":
-                    return totalSupply();
+                    return TotalSupply();
                 case "name":
-                    return name();
+                    return Name();
                 case "symbol":
-                    return symbol();
+                    return Symbol();
                 case "transfer":
-                    return transfer(args);
+                    return Transfer(args);
                 case "balanceOf":
-                    return balanceOf(args);
+                    return BalanceOf(args);
                 case "decimals":
-                    return decimals();
+                    return Decimals();
                 default:
                     return false;
             }
         }
-        private static BigInteger totalSupply()
+        private static BigInteger TotalSupply()
         {
             byte[] totalSupply = Storage.Get(Storage.CurrentContext, "totalSypply");
             return BytesToInt(totalSupply);
         }
 
-        private static string name()
+        private static string Name()
         {
             byte[] name = Storage.Get(Storage.CurrentContext, "name");
             return name.AsString();
         }
 
-        private static string symbol()
+        private static string Symbol()
         {
             byte[] symbol = Storage.Get(Storage.CurrentContext, "symbol");
             return symbol.AsString();
         }
 
-        private static bool transfer(object[] args)
+        private static bool Transfer(object[] args)
         {
             if (args.Length != 3) return false;
             byte[] from = (byte[])args[0];
@@ -70,7 +70,7 @@ namespace NEO_NEP_5
             Runtime.Notify(args);
         }
 
-        private static BigInteger balanceOf(object[] args)
+        private static BigInteger BalanceOf(object[] args)
         {
             if (args.Length != 1) return 0;
             byte[] address = (byte[])args[0];
@@ -78,7 +78,7 @@ namespace NEO_NEP_5
             return BytesToInt(balance);
         }
 
-        private static BigInteger decimals()
+        private static BigInteger Decimals()
         {
             byte[] decimals = Storage.Get(Storage.CurrentContext, "decimals");
             return BytesToInt(decimals);
