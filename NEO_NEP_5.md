@@ -1,4 +1,4 @@
-<pre><code>
+```csharp
 using Neo.SmartContract.Framework;
 using Neo.SmartContract.Framework.Services.Neo;
 using System;
@@ -97,5 +97,4 @@ namespace NEO_NEP_5
         }
     }
 }
-
-</pre></code>
+```
