@@ -11,8 +11,8 @@ namespace NEO_NEP_5
 
         /// <summary>
         ///   This is the NEP5 smart contract template.
-        ///   Please read the comments for comments for 
-        ///   instructions on fields that need to be populated.
+        ///   Please read the comments for instructions 
+        ///   on fields that need to be populated.
         /// 
         ///   Parameter List: 050505
         ///   Return List: 05
