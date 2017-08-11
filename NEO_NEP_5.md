@@ -70,7 +70,7 @@ namespace NEO_NEP_5
         
         /// <summary>
         ///   Deploys the tokens to the admin account.
-        ///   发行资产给管理员账户
+        ///   部署以及发行资产给管理员账户
         /// </summary>
         /// <param name="originator">
         ///   The contract invoker.
@@ -94,6 +94,7 @@ namespace NEO_NEP_5
             if (originator != adminKey) return false;
             
             //deploy the tokens to the admin
+            //部署以及发行资产给管理员账户
             Storage.Put(Storage.CurrentContext, originator, IntToBytes(supply));
             return true;
         }
