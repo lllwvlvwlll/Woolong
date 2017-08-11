@@ -19,7 +19,7 @@ namespace NEO_NEP_5
         /// 
         /// </summary>
         /// <param name="originator">
-        ///   Public Key (param code 05)
+        ///   The transaction initiator's public key.
         /// </param>
         /// <param name="Event">
         ///   The NEP5 Event being invoked.
@@ -29,7 +29,7 @@ namespace NEO_NEP_5
         /// </param>
 
         public static object Main(byte[] originator, string Event, params object[] args)
-       {
+        {
            BigInteger supply = 1000000;
            string name = "Name";
            string symbol = "NME";
@@ -59,11 +59,11 @@ namespace NEO_NEP_5
            if (Event == "allowance") return Allowance(args[0], args[1]);
 
            return false;
-  }
+        }
 
         
         /// <summary>
-        ///   Deploys the tokens to the admin account
+        ///   Deploys the tokens to the admin account.
         /// </summary>
         /// <param name="originator">
         ///   The contract invoker.
@@ -140,7 +140,7 @@ namespace NEO_NEP_5
         ///   The account to transfer a balance to.
         /// </param>
         /// <param name="amount">
-        ///   The amount to transfer
+        ///   The amount to transfer.
         /// </param>
         /// <returns>
         ///   Transaction successful?
@@ -184,7 +184,8 @@ namespace NEO_NEP_5
             Storage.Put(Storage.CurrentContext, originator.Concat(to), amount);
             return true;
         }
-        
+       
+ 
         /// <summary>
         ///   Checks the TransferFrom approval of two accounts.
         /// </summary>
@@ -201,8 +202,6 @@ namespace NEO_NEP_5
         {
             return BytesToInt(Storage.Get(Storage.CurrentContext, from.Concat(to)));
         }
-
-
 
        
         private static void Transferred(byte[] originator, byte[] to, BigInteger amount)
