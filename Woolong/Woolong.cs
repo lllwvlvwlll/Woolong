@@ -79,9 +79,15 @@ namespace Woolong
         /// </returns>
         private static bool Deploy(byte[] originator, BigInteger supply)
         {
-            //Define the admin public key in byte format
+            // Define the admin public key in byte format.  
+            // This is my testnet account...so dont think you found anything cool...
             // Reference: https://github.com/neo-project/docs/blob/master/en-us/sc/tutorial/Lock2.md
-            var adminKey = new byte[] {};
+            var adminKey = new byte[] {
+                3, 84, 174, 73, 130, 33, 4, 108, 102,
+                110, 254, 187, 174, 233, 189, 14, 180,
+                130, 52, 105, 201, 142, 116, 132, 148,
+                169, 42, 113, 243, 70, 177, 166, 97
+            };
 
             if (originator != adminKey) return false;
             
