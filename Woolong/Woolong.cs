@@ -9,39 +9,47 @@ namespace Woolong
     {
 
         /// <summary>
-        ///   This smart contract is designed to replacate the 
-        ///   functionality of an ERC20 token.
+        ///   This smart contract is designed as the example
+        ///   token for the NEP5 standard.
         /// 
         ///   Parameter List: 0505050505
         ///   Return List: 05
         /// 
         /// </summary>
         /// <param name="originator">
-        ///   Public Key (param code 06)
+        ///   Public Key (param code 05)
         /// </param>
         /// <param name="Event">
-        ///   The ERC20 Event being invoked.
+        ///   The NEP5 Event being invoked.
         /// </param>
         /// <param name="args0">
-        ///   Optional input parameters used by the ERC20 methods.  These will be collapsed with a params
-        ///   input once the GUI is enhanced to support option inputs.
+        ///   In this SC we diverge from the NEP5 template to aid in deployment using the desktop GUI.
+        ///   When params support in the GUI is adding, the 'args' inputs will be collapsed down to 
+        ///   align with the standard.
         /// </param>
         /// <param name="args1">
-        ///   Optional input parameters used by the ERC20 methods.
         /// </param>
         /// <param name="args2">
-        ///   Optional input parameters used by the ERC20 methods.
         /// </param>
 
         public static object Main(byte[] originator, string Event, byte[] args0, byte[] args1, byte[] args2)
        {
            BigInteger supply = 1000000;
+           string name = "Woolong";
+           string symbol = "WNG";
+           BigInteger decimals = 1;
            
            if (!Runtime.CheckWitness(originator)) return false;
 
            if (Event == "deploy") return Deploy(originator, supply);
 
            if (Event == "totalSupply") return supply;
+           
+           if (Event == "name") return name;
+ 
+           if (Event == "symbol") return symbol;
+
+           if (Event == "decimals") return decimals;
            
            if (Event == "balanceOf") return Storage.Get(Storage.CurrentContext, args0);
             
@@ -111,6 +119,7 @@ namespace Woolong
             {
                 Storage.Put(Storage.CurrentContext, originator, IntToBytes(nOriginatorValue));
                 Storage.Put(Storage.CurrentContext, to, IntToBytes(nTargetValue));
+                Transferred(originator, to, amount);
                 return true;
             }
             return false;
@@ -139,17 +148,14 @@ namespace Woolong
         private static bool TransferFrom(byte[] originator, byte[] from, byte[] to, BigInteger amount)
         {
             var allValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from.Concat(originator)));
-            var fromValInt = BytesToInt(Storage.Get(Storage.CurrentContext, from));
-            var toValInt = BytesToInt(Storage.Get(Storage.CurrentContext, to));
  
-            if (fromValInt >= amount &&
-                amount >= 0  &&
-                allValInt >= 0)
+            if (allValInt >= amount)
             {
-                Storage.Put(Storage.CurrentContext, from.Concat(originator), IntToBytes(allValInt - amount));
-                Storage.Put(Storage.CurrentContext, to, IntToBytes(toValInt + amount));
-                Storage.Put(Storage.CurrentContext, from, IntToBytes(fromValInt - amount));
-                return true;
+                if (Transfer(from, to, amount))
+                {
+                    Storage.Put(Storage.CurrentContext, from.Concat(originator), IntToBytes(allValInt - amount));
+                    return true;
+                }
             }
             return false;
         }
@@ -194,6 +200,10 @@ namespace Woolong
             return BytesToInt(Storage.Get(Storage.CurrentContext, from.Concat(to)));
         }
 
+        private static void Transferred(byte[] originator, byte[] to, BigInteger amount)
+        {
+            Runtime.Log("Transfer Event");
+        }  
         
         private static byte[] IntToBytes(BigInteger value)
         {
@@ -201,7 +211,6 @@ namespace Woolong
             return buffer;
         }
         
-  
         private static BigInteger BytesToInt(byte[] array)
         {
             var buffer = new BigInteger(array);

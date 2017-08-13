@@ -1,9 +1,3 @@
-C:\Users\tyler\Documents\Visual Studio 2017\Projects\Woolong\Woolong\bin\Debug\Woolong.dll
-C:\Users\tyler\Documents\Visual Studio 2017\Projects\Woolong\Woolong\bin\Debug\Woolong.pdb
-C:\Users\tyler\Documents\Visual Studio 2017\Projects\Woolong\Woolong\bin\Debug\Neo.SmartContract.Framework.dll
-C:\Users\tyler\Documents\Visual Studio 2017\Projects\Woolong\Woolong\obj\Debug\Woolong.csprojResolveAssemblyReference.cache
-C:\Users\tyler\Documents\Visual Studio 2017\Projects\Woolong\Woolong\obj\Debug\Woolong.dll
-C:\Users\tyler\Documents\Visual Studio 2017\Projects\Woolong\Woolong\obj\Debug\Woolong.pdb
 Z:\Projects\Tokens\Woolong\Woolong\bin\Debug\Woolong.dll
 Z:\Projects\Tokens\Woolong\Woolong\bin\Debug\Woolong.pdb
 Z:\Projects\Tokens\Woolong\Woolong\bin\Debug\Neo.SmartContract.Framework.dll
