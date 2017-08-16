@@ -18,27 +18,27 @@
       <file leaf-file-name="Woolong.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+            <state relative-caret-position="342">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
-                <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-                <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-                <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-                <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-                <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-                <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-                <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-                <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-                <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-                <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+                <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+                <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+                <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+                <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+                <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+                <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+                <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+                <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+                <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -225,12 +225,12 @@
       <workItem from="1501822062127" duration="2896000" />
       <workItem from="1501865104214" duration="12543000" />
       <workItem from="1502591176107" duration="18000" />
-      <workItem from="1502592800580" duration="13260000" />
+      <workItem from="1502592800580" duration="13497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66847000" />
+    <option name="totallyTimeSpent" value="67084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,7 +242,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -286,24 +286,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -313,24 +313,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -340,24 +340,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -367,24 +367,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -394,24 +394,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -421,24 +421,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -449,24 +449,24 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -477,24 +477,24 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -507,24 +507,24 @@
         <state relative-caret-position="712">
           <caret line="207" column="1" lean-forward="false" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -534,24 +534,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -561,24 +561,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -588,24 +588,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -615,24 +615,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -643,24 +643,24 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -671,24 +671,24 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -701,24 +701,24 @@
         <state relative-caret-position="21">
           <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -728,24 +728,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -755,24 +755,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -782,24 +782,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -809,24 +809,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -837,24 +837,24 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -865,24 +865,24 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -895,24 +895,24 @@
         <state relative-caret-position="712">
           <caret line="207" column="1" lean-forward="false" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -922,24 +922,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -949,24 +949,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -976,24 +976,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1003,24 +1003,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1031,24 +1031,24 @@
         <state relative-caret-position="180">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1059,24 +1059,24 @@
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1086,27 +1086,27 @@
     <entry file="file://$PROJECT_DIR$/Woolong/supplement.cs" />
     <entry file="file://$PROJECT_DIR$/Woolong/Woolong.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        <state relative-caret-position="342">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <marker date="1502857207812" expanded="true" signature="6:134" ph="..." />
-            <marker date="1502857207812" expanded="true" signature="155:5166" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="197:5164" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="213:834" ph="///   This is the NEP5 example token: Woolong. ... " />
-            <marker date="1502857207812" expanded="true" signature="906:2089" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1067:1270" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="1774:1835" ph="/* Verify that the originator is honest. ... */" />
-            <marker date="1502857207812" expanded="true" signature="2100:2205" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
-            <marker date="1502857207812" expanded="true" signature="2258:2639" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="2649:2852" ph="///    Deploy the token with 1 supply ... " />
-            <marker date="1502857207812" expanded="true" signature="2907:3160" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3187:3743" ph="///   Transfer a balance to another account. ... " />
-            <marker date="1502857207812" expanded="true" signature="3829:4818" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="3863:3952" ph="/* Get the account value of the source and destination accounts. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4310:4373" ph="/* If the transaction is valid, proceed. ... */" />
-            <marker date="1502857207812" expanded="true" signature="4443:4782" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="4886:4982" ph="{...}" />
-            <marker date="1502857207812" expanded="true" signature="5053:5148" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="6:134" ph="..." />
+            <marker date="1502858346639" expanded="true" signature="155:5164" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="197:5162" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="213:832" ph="///   This is the NEP5 example token: Woolong. ... " />
+            <marker date="1502858346639" expanded="true" signature="904:2087" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1065:1268" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="1772:1833" ph="/* Verify that the originator is honest. ... */" />
+            <marker date="1502858346639" expanded="true" signature="2098:2203" ph="///   Generate 1 Woolong every time the contract is invoked. ... " />
+            <marker date="1502858346639" expanded="true" signature="2256:2637" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="2647:2850" ph="///    Deploy the token with 1 supply ... " />
+            <marker date="1502858346639" expanded="true" signature="2905:3158" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3185:3741" ph="///   Transfer a balance to another account. ... " />
+            <marker date="1502858346639" expanded="true" signature="3827:4816" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="3861:3950" ph="/* Get the account value of the source and destination accounts. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4308:4371" ph="/* If the transaction is valid, proceed. ... */" />
+            <marker date="1502858346639" expanded="true" signature="4441:4780" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="4884:4980" ph="{...}" />
+            <marker date="1502858346639" expanded="true" signature="5051:5146" ph="{...}" />
           </folding>
         </state>
       </provider>

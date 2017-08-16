@@ -17,7 +17,7 @@ namespace Woolong
         ///   Parameter List: 05
         ///   Return List: 05
         ///
-        ///   参数：0505
+        ///   参数：05
         ///   返回值：05
         /// </summary>
         /// <param name="method">
