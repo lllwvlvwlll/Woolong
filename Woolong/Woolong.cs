@@ -107,7 +107,7 @@ namespace Woolong
             BigInteger nTargetValue = BytesToInt(targetValue) + amount;
             
             if (nOriginatorValue >= 0 &&
-                 amount >= 0)
+                 amount > 0)
             {
                 Storage.Put(Storage.CurrentContext, originator, IntToBytes(nOriginatorValue));
                 Storage.Put(Storage.CurrentContext, to, IntToBytes(nTargetValue));
@@ -143,8 +143,8 @@ namespace Woolong
             var toValInt = BytesToInt(Storage.Get(Storage.CurrentContext, to));
  
             if (fromValInt >= amount &&
-                amount >= 0  &&
-                allValInt >= 0)
+                amount > 0  &&
+                allValInt >= amount)
             {
                 Storage.Put(Storage.CurrentContext, from.Concat(originator), IntToBytes(allValInt - amount));
                 Storage.Put(Storage.CurrentContext, to, IntToBytes(toValInt + amount));
